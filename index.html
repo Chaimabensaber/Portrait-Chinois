@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<!--header avec les informations relatives aux langages utilisées, les liens pour les google fonts, les liens vers la page css et javascript, l'icon et le titre de ma page.-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fahkwang&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/icon.svg">
+    <title>Mon portrait chinois : Chaïma Bensaber</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!--Création du bouton Crée ta page afin d'accéder au formulaire à l'aide de classes-->
+    <div class="bouton">Créé ta page</div>
+    <div class="cacher formulaire">
+        <form action="">
+            <!--Création du contenu du formulaire avec les textes et titres qu'il contient, utilisation des id nécessaire dans le javascript, et des classes pour créer les animations-->
+            <a id="boutonfermer">&times;</a>
+            <h1> À votre tour !</h1>
+            <br>
+            <input type="text" id="analogie" name="analogie" placeholder="Analogie (si j'étais...) :" required>
+            <br>
+            <input type="text" id="valeurAnalogie" name="valeurAnalogie" placeholder="Valeur de l'analogie (je serais ...) :" required>
+            <br>
+            <input type='text' id="explication" name="explication" placeholder="Explication (car ...) :" required>
+            <br>
+            <input class="btnenvoyer" type="button" value="Envoyer">
+        </form>
+    </div>
+
+    <!--Création de mon header avec le titre de ma page et son contenu iconographique-->
+    <section>
+        <header>
+            <div class="titres">
+                <h1>Mon Portrait Chinois</h1>
+                <h2>Chaïma Bensaber</h2>
+                <a href="#1"><img class="fleche fleche-bas" src="images/fleche.svg" alt=""></a>
+            </div>
+        </header>
+    </section>
+    <!--Création de ma classe bloc-portrait qui va me servir dans le javascript et le css-->
+    <div class="bloc-portrait">
+    </div>
+
+
+
+    <!--Création de mon footer avec tous les élements dont les listes qui composeront mes mentions légales-->
+    <footer>
+        <section style="height: auto;">
+            <div id="volet" class="volet-invisible">
+                <h2>Mentions légales</h2>
+
+                <div class="form-contenu">
+                    <ul>
+                        <li>
+                            <p>Illustrations</p>
+                        </li>
+                        <li>
+                            <p>Chaïma Bensaber</p>
+                        </li>
+                    </ul>
+
+                    <ul>
+                        <li>
+                            <p>Polices</p>
+                        </li>
+                        <li>
+                            <p>Fahkwang</p>
+                        </li>
+                    </ul>
+
+                    <ul>
+                        <li>
+                            <p>Languages</p>
+                        </li>
+                        <li>
+                            <p>HTML</p>
+                        </li>
+                        <li>
+                            <p>CSS</p>
+                        </li>
+                        <li>
+                            <p>Javascript</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="form-contenu">
+                    <ul>
+                        <li>
+                            <p>Informations éditeur</p>
+                        </li>
+                        <li>
+                            <p>Projet réalisé par Chaïma Bensaber</p>
+                        </li>
+                        <li>
+                            <p>2 rue Albert Einstein, 77420 Champs-sur-Marne, France</p>
+                        </li>
+                    </ul>
+
+                    <ul>
+                        <li>
+                            <p>Informations hébergeur</p>
+                        </li>
+                        <li>
+                            <p>Identité : Université Gustave Eiffel</p>
+                        </li>
+                        <li>
+                            <p>Adresse : 2 rue Albert Einstein, 77420 Champs-sur-Marne, France</p>
+                        </li>
+                        <li>
+                            <p>Téléphone : +33 (0)1 60 95 75 00</p>
+                        </li>
+                        <li>
+                            <p>Adresse mail : webmaster@univ-eiffel.fr</p>
+                        </li>
+                    </ul>
+
+                    <p>
+                        <br> Conformément à l'article 15 du Règlement général sur la protection des données (RGPD) du 27 avril 2016, vous disposez d'un droit d'accès aux informations vous concernant. Si vous trouvez que ces informations sont incorrectes,
+                        l'article 16 du RGPD vous permet de les modifier ou de les supprimer. Dans ce cas, merci de contacter le Directeur de la Communication : com@univ-eiffel.fr.
+                       Pour toute question relative à la collecte ou au traitement de vos données personnelles par le site web, vous pouvez contacter le respnsable de la protection des données du projet : philippe.gambette@univ-eiffel.fr.
+                       Les fichiers détenus par l'Université Gustave Eiffel et Philippe Gambette qui comportent des données à caractère personnel ne seront jamais transmis à des tiers et ne feront jamais l'objet d'une commercialisation.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+
+    <!--Liens vers mon Javascript et mes analogies json-->
+    <script src="js/analogies.json"></script>
+    <script src="js/data.js"></script>
+</body>
+
+</html>

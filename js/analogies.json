@@ -1,0 +1,59 @@
+[
+    {
+        "un":"Un Moyen de Transport",
+        "deux":"Un Avion",
+        "img":"images/avion.svg",
+        "justification":"Car, en plus d'être la manière la plus sécurisée de voyager, c'est aussi le moyen de transport le plus agréable grâce à l'ambiance et la sérénité qui s'en dégage. <br> De plus, ce n'est pas un endroit dans lequel on a besoin de s'occuper à tout prix pour éviter l'ennui, le simple fait de regarder dans le hublot et d'admirer le paysage comme j'aime le faire suffit. ",
+        "id":"1",
+        "id2":"2"
+    },
+    {
+        "un":"Une Actrice",
+        "deux":"Lee Sung-Kyung",
+        "img":"images/serie.svg",
+        "justification":"Car en plus d'être mannequin et chanteuse c'est aussi l'actrice de mes K-Dramas favoris comme Weightlifting Fairy Kim Bok-Joo. C'est une personnalité qui m'inspire de par sa détermination, sa force et sa capacité à s'adapter à tous les environnements. En effet, malgré les épreuves rencontrées elle a su saisir les opportunités qui se présentaient à elle.",
+        "id":"2",
+        "id2":"3"
+    },
+    {
+        "un":"Un Phénomène naturel",
+        "deux":"Les étoiles filantes",
+        "img":"images/etoiles.svg",
+        "justification":"Que ce soit en France ou à l'étranger, presque tous les étés j'ai la chance d'observer les étoiles filantes. Ces petits grains de poussière qui travesrsent notre atmosphère à une vitesse folle ont une grande signification pour moi et je ne m'en lasserait jamais. C'est un phénomène naturel passionnant qui offre un spectacle à couper le souffle.",
+        "id":"3",
+        "id2":"4"
+    },
+    {
+        "un":"Un Lieu",
+        "deux":"Le Mont Cervin",
+        "img":"images/lieu.svg",
+        "justification":"Il s'agit de la montagne la plus photographiée au monde, Le Mont Cervin est difficile d'accès mais qu'on y est, on se rend compte que l'effort en valait le coup. Une vue à couper le souffle avec un paysage magnifique et reposant. Il s'agit pour moi d'un lieu à voir absolument.",
+        "id":"4",
+        "id2":"5"
+    },
+    {
+        "un":"Un Anime",
+        "deux":"One Piece",
+        "img":"images/onepiece.svg",
+        "justification":"Car c'est un univers avec lequel j'ai grandi, dès mon plus jeune âge j'ai vu mes proches le regarder et m'en parler. En commençant à mon tour j'ai été instantanément plongé dans l'esprit de cet anime, j'ai pu m'y identifier facilement grâce à la diversité de paysages et de personnages. Et la manière dont l'histoire est construite m'a aussi immédiatement passionné.",
+        "id":"5",
+        "id2":"6"
+    },
+    {
+        "un":"Un Sport",
+        "deux":"La Formule 1",
+        "img":"images/formule1.svg",
+        "justification":"J'ai commencé à apprécier la Formule 1 depuis peu. En m'y penchant de plus près je me suis rendu compte qu'il s'agissait d'une discipline complexe et très technique qui pousse ses sportifs à se dépasser constamment. Et ce qui m'a aussi beaucoup plu c'est qu'il s'agit en réalité d'un sport d'équipe, c'est la collaboration des mécaniciens et du pilote qui assure la victoire.",
+        "id":"6",
+        "id2":"7"
+    },
+    {
+        "un":"Un Jeu Vidéo",
+        "deux":"Zelda Breath Of The Wild",
+        "img":"images/jeu.svg",
+        "justification":"Car c'est un jeu dont je ne me suis jamais lassé, les musiques, les graphismes incroyables et la multitude de lieux à découvrir me poussent à le continuer. Ce fut mon premier jeu sur Switch et j'ai été directement plongé dedans. J'ai toujours préféré les jeux d'aventures avec une grande carte ouverte et j'ai pu y retrouver cet aspect.",
+        "cacher":"cacher",
+        "id":"7",
+        "id2":"fleche"
+    }
+]
